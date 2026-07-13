@@ -32,3 +32,41 @@
   color: #fff;
   font-weight: 500
 }
+
+.nasa-window {
+  display: none;
+  position: absolute;
+  top: 20%; left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  background: #0a101e;
+  border: 1px solid #00f0ff;
+  border-radius: 8px;
+  padding: 10px;
+  color: #e8f8ff;
+}
+
+.window-header {
+  display:flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #16365c;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 12px;
+
+}
+
+#lista-misiones {list-style: none; padding: 0; margin-top: 10px;}
+#lista-misiones li{
+
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  border-bottom: 1px dashed #16365c;
+}
+
+.tarea-completada {
+  text-decoration: line-through;
+  color: #6b8fae;
+}
